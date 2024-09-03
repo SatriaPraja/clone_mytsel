@@ -1,0 +1,25 @@
+name: mytsel
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: ^3.6.0-131.0.dev
+
+dependencies: 
+  cupertino_icons: ^1.0.8
+  get: 4.6.6
+  bottom_navy_bar: 6.1.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^4.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+    - assets/images/home/
+  uses-material-design: true
+
